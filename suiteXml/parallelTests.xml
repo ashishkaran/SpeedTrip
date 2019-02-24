@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel Tests" parallel="tests" thread-count="4">
+    <listeners>
+        <listener class-name="ask.cni.helpers.CustomListener" />
+    </listeners>
+    <test name="Sanity1">
+        <classes>
+            <class name="ask.cni.tests.BasicTest" />
+        </classes>
+    </test>
+    <test name="Sanity2">
+        <classes>
+            <class name="ask.cni.tests.BasicTest" />
+        </classes>
+    </test>
+    <test name="Sanity3">
+        <classes>
+            <class name="ask.cni.tests.BasicTest" />
+        </classes>
+    </test>
+    <test name="Sanity4">
+        <classes>
+            <class name="ask.cni.tests.BasicTest" />
+        </classes>
+    </test>
+</suite>

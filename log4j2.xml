@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%-5p[%d] [%M] %m %n" />
+		</Console>
+
+		<Routing name="RoutingAppender">
+			<Routes pattern="$${ctx:testCaseID}">
+				<Route>
+					<RollingFile name="Rolling-${ctx:logFilename}"
+						fileName="logs/${ctx:logFilename}/${ctx:testCaseID}.log" filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+						<PatternLayout pattern="%-5p[%d] [%M] %m %n" />
+						<SizeBasedTriggeringPolicy size="1024 MB" />
+					</RollingFile>
+				</Route>
+				<Route ref="Console" key="${ctx:logFileName}" />
+			</Routes>
+		</Routing>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="RoutingAppender" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>
