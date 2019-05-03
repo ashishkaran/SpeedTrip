@@ -1,4 +1,4 @@
-package ask.cni.helpers;
+package ashish.karan.helpers;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.*;
 import org.testng.xml.XmlSuite;
-import ask.cni.utils.DateUtils;
+import ashish.karan.utils.DateUtils;
 
 import java.io.File;
 import java.io.IOException;

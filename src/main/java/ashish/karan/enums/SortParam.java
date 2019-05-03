@@ -1,4 +1,4 @@
-package ask.cni.enums;
+package ashish.karan.enums;
 
 /**
  * Created by Ashish Karan on 23/02/2019.

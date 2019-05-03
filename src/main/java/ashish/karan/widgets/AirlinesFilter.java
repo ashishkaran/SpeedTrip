@@ -1,7 +1,7 @@
-package ask.cni.widgets;
+package ashish.karan.widgets;
 
-import ask.cni.helpers.SeleniumHelper;
-import ask.cni.enums.Airline;
+import ashish.karan.helpers.SeleniumHelper;
+import ashish.karan.enums.Airline;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

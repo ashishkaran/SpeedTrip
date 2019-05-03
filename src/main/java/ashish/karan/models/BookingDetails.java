@@ -1,4 +1,4 @@
-package ask.cni.models;
+package ashish.karan.models;
 
 /**
  * Created by Ashish Karan on 23/02/2019.

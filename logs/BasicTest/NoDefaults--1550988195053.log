@@ -1,7 +1,0 @@
-INFO [2019-02-24 11:33:15,174] [NoDefaults] Started test ==== NoDefaults ==== 
-INFO [2019-02-24 11:33:15,209] [openBrowser] ========== launching browser ======= 
-INFO [2019-02-24 11:33:20,383] [NoDefaults] URL IS: https://www.cleartrip.com/ 
-INFO [2019-02-24 11:33:20,384] [clickDateWidget] Opening the date widget 
-INFO [2019-02-24 11:33:20,871] [click] on element: By.id: DepartDate 
-INFO [2019-02-24 11:33:21,285] [click] on element: By.id: SearchBtn 
-INFO [2019-02-24 11:33:21,938] [quitWebDriver] ========== closing browser ======= 

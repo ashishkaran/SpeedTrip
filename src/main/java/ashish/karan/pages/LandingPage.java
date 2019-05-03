@@ -1,11 +1,11 @@
-package ask.cni.pages;
+package ashish.karan.pages;
 
-import ask.cni.helpers.SeleniumHelper;
+import ashish.karan.helpers.SeleniumHelper;
+import ashish.karan.widgets.DatePicker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import ask.cni.widgets.DatePicker;
 
 /**
  * Created by Ashish Karan on 23/02/2019.

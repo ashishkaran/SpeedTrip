@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Single Threaded">
     <listeners>
-        <listener class-name="ask.cni.helpers.CustomListener" />
+        <listener class-name="ashish.karan.helpers.CustomListener" />
     </listeners>
     <test name="Test">
         <classes>
-            <class name="ask.cni.tests.BasicTest" />
+            <class name="ashish.karan.tests.BasicTest" />
         </classes>
     </test>
 </suite>

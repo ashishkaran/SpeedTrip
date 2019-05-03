@@ -1,24 +1,24 @@
-package ask.cni.tests;
+package ashish.karan.tests;
 
-import ask.cni.helpers.BaseTestHelper;
-import ask.cni.models.BookingDetails;
-import ask.cni.models.Flight;
-import ask.cni.helpers.SeleniumHelper;
-import ask.cni.enums.Airline;
-import ask.cni.enums.SortParam;
-import ask.cni.enums.SortType;
+import ashish.karan.helpers.BaseTestHelper;
+import ashish.karan.helpers.SeleniumHelper;
+import ashish.karan.models.BookingDetails;
+import ashish.karan.models.Flight;
+import ashish.karan.utils.ConfigFileReader;
+import ashish.karan.utils.DateUtils;
+import ashish.karan.utils.LoggerUtils;
+import ashish.karan.widgets.AirlinesFilter;
+import ashish.karan.enums.Airline;
+import ashish.karan.enums.SortParam;
+import ashish.karan.enums.SortType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import ask.cni.pages.BookingPage;
-import ask.cni.pages.Itinerary;
-import ask.cni.pages.LandingPage;
-import ask.cni.utils.ConfigFileReader;
-import ask.cni.utils.DateUtils;
-import ask.cni.utils.LoggerUtils;
-import ask.cni.widgets.AirlinesFilter;
+import ashish.karan.pages.BookingPage;
+import ashish.karan.pages.Itinerary;
+import ashish.karan.pages.LandingPage;
 
 import java.lang.reflect.Method;
 

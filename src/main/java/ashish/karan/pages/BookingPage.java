@@ -1,16 +1,16 @@
-package ask.cni.pages;
+package ashish.karan.pages;
 
-import ask.cni.models.Flight;
-import ask.cni.utils.FlightComparator;
-import ask.cni.helpers.SeleniumHelper;
-import ask.cni.enums.SortParam;
-import ask.cni.enums.SortType;
+import ashish.karan.helpers.SeleniumHelper;
+import ashish.karan.models.Flight;
+import ashish.karan.utils.FlightComparator;
+import ashish.karan.utils.StringUtils;
+import ashish.karan.enums.SortParam;
+import ashish.karan.enums.SortType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import ask.cni.utils.StringUtils;
 import org.testng.Assert;
 
 import java.util.*;

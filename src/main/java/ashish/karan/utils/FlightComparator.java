@@ -1,6 +1,6 @@
-package ask.cni.utils;
+package ashish.karan.utils;
 
-import ask.cni.models.Flight;
+import ashish.karan.models.Flight;
 
 import java.util.Comparator;
 

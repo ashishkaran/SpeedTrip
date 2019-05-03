@@ -1,15 +1,15 @@
-package ask.cni.pages;
+package ashish.karan.pages;
 
-import ask.cni.models.BookingDetails;
-import ask.cni.helpers.SeleniumHelper;
-import ask.cni.enums.ItrDetailType;
-import ask.cni.models.Flight;
+import ashish.karan.helpers.SeleniumHelper;
+import ashish.karan.models.BookingDetails;
+import ashish.karan.models.Flight;
+import ashish.karan.utils.StringUtils;
+import ashish.karan.enums.ItrDetailType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import ask.cni.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
